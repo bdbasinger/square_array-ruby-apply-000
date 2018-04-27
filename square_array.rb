@@ -1,3 +1,4 @@
 def square_array(array)
-  # your code here
+  result = array.collect { |x| x * x }
+  print result
 end
